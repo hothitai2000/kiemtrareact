@@ -3,7 +3,8 @@ import axios from 'axios';
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';																				
 import { ToastContainer, toast } from 'react-toastify';																				
 import 'react-toastify/dist/ReactToastify.css';																				
-class Add extends Component {																				
+class Add extends Component {			
+    																	
   constructor(props){																				
         super(props);																				
         this.state = {																				

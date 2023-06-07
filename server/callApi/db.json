@@ -1,25 +1,12 @@
 {
   "products": [
     {
-      "name": "Doughnuts11",
-      "price": "15",
-      "image": "/images/1434429117-banh-su-kem-chien-20.jpg",
-      "color": "Hồng bánh kem",
-      "name_category": "sản phẩm hot",
-      "material": "Bánh và trứng",
-      "expiry_date": "3 ngày",
-      "origin": "Đà Nẵng",
-      "description": "Dành cho những người đói bụng",
-      "tinhtranghang": true,
-      "id": "3"
-    },
-    {
       "name": "Bánh Tiramisu Italia",
       "price": "36",
-      "image": "/images/banhbonglantrungmuoi.jpg",
+      "image": "https://cdn.tgdd.vn/2021/02/content/2-800x500-11.jpg",
       "color": "Hồng bánh kem",
       "name_category": "sản phẩm mới",
-      "material": "Bánh và trứng",
+      "material": "Bánh và trứng ",
       "expiry_date": "3 ngày",
       "origin": "Italia",
       "description": "Dành cho những người đói bụng",
@@ -29,7 +16,7 @@
     {
       "name": "Bánh Macaron Pháp",
       "price": "50",
-      "image": "/images/1430967449-pancake-sau-rieng-6.jpg",
+      "image": "https://vcdn1-dulich.vnecdn.net/2013/10/29/image001-7428-1383020105.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=b6uHoGWhn6syB6kdsKW-Ag",
       "color": "Hồng bánh kem",
       "name_category": "sản phẩm khuyến mãi",
       "material": "Bánh và trứng",
@@ -42,7 +29,7 @@
     {
       "name": "Bánh Tapioca Brazil",
       "price": "20",
-      "image": "/images/Fruit-Cake_7979.jpg",
+      "image": "https://cdn.trip14.com/trip14.com_c352701bd8128620e56735ba9fd6cf04.jpg",
       "color": "Hồng bánh kem",
       "name_category": "sản phẩm hot",
       "material": "Bánh và trứng",
@@ -55,7 +42,7 @@
     {
       "name": "Bánh táo Mỹ",
       "price": "80",
-      "image": "/images/banh-mi-nhan-man.jpg",
+      "image": "https://cdn.tgdd.vn/2020/12/CookRecipe/Avatar/banh-mi-tao-bang-banh-mi-sandwich-thumbnail.jpg",
       "color": "Hồng",
       "name_category": "sản phẩm mới",
       "material": "Từ thiên nhiên",
@@ -66,22 +53,9 @@
       "id": "UiWAkWH"
     },
     {
-      "name": "Bánh Gateau St. Honore",
-      "price": "25,6",
-      "image": "/images/saurieng-dua.jpg",
-      "color": "Hồng",
-      "name_category": "sản phẩm khuyến mãi",
-      "material": "Từ thiên nhiên",
-      "expiry_date": "2019-11-10",
-      "origin": "Quãng Nam",
-      "description": "Bánh ngon lắm",
-      "tinhtranghang": false,
-      "id": "zVCXZab"
-    },
-    {
       "name": "Bánh Nếp",
       "price": "30",
-      "image": "/images/banhbonglantrung.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Vietnam_08_-_161_-_sticky_rice_at_the_market_%283187495012%29.jpg/1200px-Vietnam_08_-_161_-_sticky_rice_at_the_market_%283187495012%29.jpg",
       "color": "Hồng",
       "name_category": "sản phẩm khuyến mãi",
       "material": "Từ thiên nhiên",
@@ -181,19 +155,6 @@
       "description": "Ăn  càng nhiều càng tốt",
       "tinhtranghang": true,
       "id": "GyV1IQz"
-    },
-    {
-      "name": "Bánh nhật Bản33333333333333333",
-      "price": "200000",
-      "image": "/images/210215-banh-sinh-nhat-rau-cau-body- (6).jpg",
-      "color": "Xanh",
-      "name_category": "",
-      "material": "Bột ngũ cốc",
-      "expiry_date": "2021-05-13",
-      "origin": "Việt Nam",
-      "description": "Ăn  càng nhiều càng tốt",
-      "tinhtranghang": false,
-      "id": "HaJqmMK"
     },
     {
       "name": "Hồ Thị Tài",

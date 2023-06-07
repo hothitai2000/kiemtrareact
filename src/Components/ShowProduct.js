@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+
 import axios from "axios";
 import $ from "jquery";
 import DataTable from "react-data-table-component";
@@ -78,19 +79,20 @@ class ShowProduct extends Component {
             .catch("Thêm không thành công");
     }
 
-    async deleteProduct(id) {
-        if (window.confirm(`Bạn muốn xóa sản phẩm có id là ${id}`)) {
-            await axios
-                .delete(`http://localhost:8000/api/delete-product/${id}`, {})
-                .then((res) => {
-                    alert("Xóa thành công");
-                    this.componentDidMount();
-                })
-                .catch(alert("Xóa không thành công"));
-        } else {
-            alert("Xóa không thành công");
-        }
+    async deleteProduct(id) {								
+        if (window.confirm(`Bạn muốn xóa sản phẩm có id là ${id}`)) {								
+        await axios								
+            .delete(`http://localhost:8000/api/delete-product/${id}`, {})								
+            .then((res) => {								
+            alert("Xóa thành công");								
+            this.componentDidMount();								
+        })																
+        } else {								
+        alert("Xóa không thành công");								
+        }								
     }
+                
+   
 
     handleChange = (file) => {
         this.setState({ fileUpload: file[0] });
