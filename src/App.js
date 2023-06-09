@@ -1,16 +1,21 @@
 // import logo from './logo.svg';
-import './App.css';
-import ShowProduct from './Components/ShowProduct';
+// import './App.css';
+// import ShowProduct from './Components/ShowProduct';
 // import { Axios } from 'axios';
+// import Homepage from './Apilazada/Hompage';
 
-function App() {
-  return (
-    <div>
-      <ShowProduct />
-    </div>
-  );
-}
-export default App
+// import Product from './Apilazada/Product';
+// import 
+// function App() {
+//   return (
+//     <div>
+//       {/* <ShowProduct /> */}
+//       <Homepage />
+//       <Product />
+//     </div>
+//   );
+// }
+// export default App
 // =================
 
 
@@ -24,6 +29,7 @@ export default App
 // }
 // export default App;
 
+
 // import React from 'react';
 // import ReactDOM from 'react-dom/client';
 // import './index.css';
@@ -33,6 +39,8 @@ export default App
 // import { AuthProvider } from './context/AuthenProvider';
 // import Login from './Btvn/Login';
 
+
+
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(
 //   <React.StrictMode>
@@ -41,6 +49,17 @@ export default App
 //     <App />
 
 //     </AuthProvider>
-    
+
 //   </React.StrictMode>
 // );
+
+import React from "react";
+import Homepage from '../src/Apilazada/Hompage';
+
+function App() {
+  return (
+    <Homepage />
+  );
+}
+
+export default App;

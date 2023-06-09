@@ -11,7 +11,6 @@ const AllProduct = () => {
   }, []);
 
   return (
-
     <div> 
           <table className="table">
         <thead className="thead-dark">
